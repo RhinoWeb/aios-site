@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="The AIOS Knowledge Base: an open handbook for building AI-native organizations." />
+    <meta name="theme-color" content="#0c1018" />
+    <title>AIOS Knowledge Base</title>
+    <link rel="canonical" href="https://ai.ryanshaw.xyz/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="AIOS Knowledge Base" />
+    <meta property="og:title" content="AIOS — The Operating System for AI-Native Organizations" />
+    <meta property="og:description" content="An open handbook for founders building companies where humans, intelligent systems, and repeatable workflows operate together. Free to read, adapt, and share." />
+    <meta property="og:url" content="https://ai.ryanshaw.xyz/" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="AIOS — The Operating System for AI-Native Organizations" />
+    <meta name="twitter:description" content="An open handbook for founders building AI-native organizations. Free to read, adapt, and share." />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230c1018'/%3E%3Ctext x='32' y='44' font-family='Segoe UI,Arial,sans-serif' font-size='34' font-weight='700' fill='%237dd3fc' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E" />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "AIOS Knowledge Base",
+      "url": "https://ai.ryanshaw.xyz/",
+      "description": "An open handbook for building AI-native organizations.",
+      "publisher": { "@type": "Organization", "name": "iDevelop LLC" }
+    }
+    </script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-bg" aria-hidden="true"></div>
+    <header class="topbar">
+      <a class="brand" href="#/welcome" aria-label="AIOS Knowledge Base home">
+        <span class="brand-mark">A</span>
+        <span>
+          <strong>AIOS</strong>
+          <small>Knowledge Base</small>
+        </span>
+      </a>
+      <div class="topbar-actions">
+        <button class="search-trigger" id="searchTrigger" type="button" aria-label="Search the knowledge base">
+          <span class="search-icon">⌕</span>
+          <span>Search the knowledge base</span>
+          <kbd>/</kbd>
+        </button>
+        <a class="top-link" href="#/community">Community</a>
+        <a class="top-link" href="#/installation-method">Install AIOS</a>
+      </div>
+    </header>
+
+    <div class="layout">
+      <aside class="sidebar" aria-label="Documentation navigation">
+        <div class="sidebar-intro">
+          <span class="eyebrow">Open handbook · v0.1</span>
+          <p>Shared language for founders building organizations around intelligent systems.</p>
+        </div>
+        <nav id="nav" class="nav-tree"></nav>
+        <div class="sidebar-footer">
+          <span class="status-dot"></span>
+          <span>Public foundation · July 2026</span>
+        </div>
+      </aside>
+
+      <main id="app" class="content" tabindex="-1"></main>
+
+      <aside class="right-rail" aria-label="Page tools">
+        <div class="rail-card">
+          <span class="eyebrow">On this page</span>
+          <nav id="toc" class="toc"></nav>
+        </div>
+        <div class="rail-card accent-card">
+          <span class="eyebrow">The prime directive</span>
+          <p>Humans define intent. The organization plans. The platform executes. Knowledge compounds.</p>
+        </div>
+        <div class="rail-card">
+          <span class="eyebrow">Keep exploring</span>
+          <div id="related" class="related-links"></div>
+        </div>
+      </aside>
+    </div>
+
+    <div id="searchModal" class="search-modal" hidden>
+      <div class="search-backdrop" data-close-search></div>
+      <section class="search-dialog" role="dialog" aria-modal="true" aria-labelledby="searchTitle">
+        <div class="search-dialog-head">
+          <div>
+            <span class="eyebrow">Knowledge search</span>
+            <h2 id="searchTitle">Find your way through AIOS</h2>
+          </div>
+          <button class="icon-button" type="button" data-close-search aria-label="Close search">×</button>
+        </div>
+        <label class="search-input-wrap">
+          <span class="search-icon">⌕</span>
+          <input id="searchInput" type="search" placeholder="Try “AI workforce”, “knowledge”, or “founder leverage”" autocomplete="off" />
+          <kbd>Esc</kbd>
+        </label>
+        <p class="search-hint">Search is local to this offline artifact. Results are ranked across every published page.</p>
+        <div id="searchResults" class="search-results"></div>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
