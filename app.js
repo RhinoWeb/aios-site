@@ -311,7 +311,7 @@ P.community = makePage("community", "Community", "AIOS Builders", "Learn in publ
   ${block("The community promise", `<p>The public knowledge base stays free. The community adds momentum: implementation challenges, founder conversations, workshops, examples, and a place to share what is working in the real world.</p>`)}
   ${split([card("Explorer", "Read the knowledge base, ask questions, and follow the public build."), card("Builder", "Join workshops, use templates, and implement one workflow with peers."), card("Operator", "Share operating metrics, refine your AI workforce, and build repeatable systems."), card("Partner", "Help other organizations install AIOS through a future implementer network.")])}
   ${block("What belongs in the community", bullets(["Real implementation notes, not just tool recommendations.", "Workflow examples and lessons learned.", "Founder-friendly explanations of technical concepts.", "Honest discussions about what should remain human.", "Case studies that protect private information while sharing useful patterns."]))}
-  <a class="button primary" href="mailto:improveddigital@gmail.com?subject=AIOS%20Builders%20community">Get notified when the community opens →</a>
+  <a class="button primary" href="https://www.skool.com/aios-5364" target="_blank" rel="noreferrer">Join AIOS Builders on Skool →</a>
 `, "Published");
 
 P["aios-academy"] = makePage("aios-academy", "Community", "AIOS Academy", "A path, not a pile of pages", "A learning progression for founders who want to understand, design, install, and improve an AI-native organization.", `

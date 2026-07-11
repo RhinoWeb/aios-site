@@ -38,5 +38,5 @@ Add a page by creating a `makePage` entry and listing its id in `sections`.
 Every navigation link must resolve to a real page; search indexes every page
 automatically.
 
-CTAs currently point to `improveddigital@gmail.com`. Replace the community
-CTA with the real Skool URL when the community launches.
+The community CTA links to the Skool group (https://www.skool.com/aios-5364);
+the installations CTA points to `improveddigital@gmail.com`.
