@@ -311,7 +311,7 @@ P.community = makePage("community", "Community", "AIOS Builders", "Learn in publ
   ${block("The community promise", `<p>The public knowledge base stays free. The community adds momentum: implementation challenges, founder conversations, workshops, examples, and a place to share what is working in the real world.</p>`)}
   ${split([card("Explorer", "Read the knowledge base, ask questions, and follow the public build."), card("Builder", "Join workshops, use templates, and implement one workflow with peers."), card("Operator", "Share operating metrics, refine your AI workforce, and build repeatable systems."), card("Partner", "Help other organizations install AIOS through a future implementer network.")])}
   ${block("What belongs in the community", bullets(["Real implementation notes, not just tool recommendations.", "Workflow examples and lessons learned.", "Founder-friendly explanations of technical concepts.", "Honest discussions about what should remain human.", "Case studies that protect private information while sharing useful patterns."]))}
-  <a class="button primary" href="mailto:support@rhinowebconsulting.com?subject=AIOS%20Builders%20community">Get notified when the community opens →</a>
+  <a class="button primary" href="mailto:improveddigital@gmail.com?subject=AIOS%20Builders%20community">Get notified when the community opens →</a>
 `, "Published");
 
 P["aios-academy"] = makePage("aios-academy", "Community", "AIOS Academy", "A path, not a pile of pages", "A learning progression for founders who want to understand, design, install, and improve an AI-native organization.", `
@@ -324,7 +324,7 @@ P.installations = makePage("installations", "Community", "AIOS Installations", "
   ${block("What an installation includes", bullets(["Organization and workflow audit.", "AI workforce and role design.", "Knowledge architecture and documentation setup.", "Workflow and approval design.", "Integrations and automations.", "Mission Control or equivalent operating interface.", "A continuous improvement cadence."]))}
   ${block("The output", `<p>An installation should leave the organization with a blueprint, working workflows, clear ownership, useful knowledge, and the ability to improve without needing the installer for every change.</p>`)}
   ${block("Good fit", `<p>Organizations with repeated work, a founder bottleneck, scattered knowledge, or a clear desire to redesign how their teams operate in the AI era.</p>`)}
-  <a class="button primary" href="mailto:support@rhinowebconsulting.com?subject=AIOS%20Installation">Ask about an installation →</a>
+  <a class="button primary" href="mailto:improveddigital@gmail.com?subject=AIOS%20Installation">Ask about an installation →</a>
 `, "Published");
 
 P["certified-implementers"] = makePage("certified-implementers", "Community", "Certified Implementers", "Build an ecosystem around the method", "A future pathway for operators and consultants who want to help other organizations install AIOS.", `

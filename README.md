@@ -38,5 +38,5 @@ Add a page by creating a `makePage` entry and listing its id in `sections`.
 Every navigation link must resolve to a real page; search indexes every page
 automatically.
 
-CTAs currently point to `support@rhinowebconsulting.com`. Replace the community
+CTAs currently point to `improveddigital@gmail.com`. Replace the community
 CTA with the real Skool URL when the community launches.
